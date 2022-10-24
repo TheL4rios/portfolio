@@ -3,29 +3,11 @@ import type { ISourceOptions } from "tsparticles-engine";
 export const configParticle: ISourceOptions = {
     background: {
         color: {
-            value: "#252934",
+            value: "#141c3a",
         },
     },
     fpsLimit: 120,
     fullScreen: false,
-    interactivity: {
-        events: {
-            onClick: {
-                enable: true,
-                mode: "push",
-            },
-            resize: true,
-        },
-        modes: {
-            push: {
-                quantity: 4,
-            },
-            repulse: {
-                distance: 200,
-                duration: 0.4,
-            },
-        },
-    },
     particles: {
         color: {
             value: "#ffffff",
