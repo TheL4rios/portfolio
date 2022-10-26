@@ -7,6 +7,7 @@ import i18next from 'i18next';
 
 import mainCard_es from 'src/core/translations/es/MainCard.json';
 import mainCard_en from 'src/core/translations/en/MainCard.json';
+import aboutMe_es from 'src/core/translations/es/AboutMe.json';
 
 i18next.init({
   interpolation: {
@@ -15,7 +16,8 @@ i18next.init({
   lng: 'es',
   resources: {
     es: {
-      mainCard: mainCard_es
+      mainCard: mainCard_es,
+      aboutMe: aboutMe_es
     },
     en: {
       mainCard: mainCard_en

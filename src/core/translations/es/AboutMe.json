@@ -1,0 +1,16 @@
+{
+    "aboutMe": {
+        "title": "Acerca de mí",
+        "about": "Soy una persona empática, comprometida, responsable, sé trabajar en equipo, paciente, aprendo rápido; soy un apasionado de la tecnología, me gustan los retos y aprender nuevas cosas cada día.",
+        "school": [
+            {
+                "name": "Instituto Tecnológico de Tepic",
+                "career": "Ingeniería en Sistemas Computacionales"
+            },
+            {
+                "name": "Conalep 169",
+                "career": "Técnico en Informática"
+            }
+        ]
+    }
+}

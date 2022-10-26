@@ -1,6 +1,0 @@
-.main__arrow {
-    left: 50%;
-    position: absolute;
-    top: calc((100vh / 2) + 25%);
-    z-index: 1;
-}
