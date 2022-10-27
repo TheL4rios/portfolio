@@ -24,11 +24,6 @@ module.exports = {
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
     },
-    extend: {
-      colors: {
-        'text-color': '#FF0000',//#141C3A
-      },
-    }
   },
   plugins: [],
 }
