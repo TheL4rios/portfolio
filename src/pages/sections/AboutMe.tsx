@@ -18,8 +18,8 @@ export const AboutMe = () => {
         <div className='w-[50%] text-[#141C3A] ml-[100px]'>
           <span className='text-2xl'>{ `${ t('aboutMe.about') } ` }</span>
           {
-            schools.map(school => (
-              <div className='flex items-center mt-[25px]'>
+            schools.map((school: AboutMeSchool, index: number) => (
+              <div className='flex items-center mt-[25px]' key={ index }>
                 <IoSchool className='text-4xl'/>
                 <div className='ml-4'>
                   <span className='font-semibold text-xl'>{ school.name }</span>
