@@ -1,0 +1,16 @@
+{
+    "aboutMe": {
+        "title": "About me",
+        "about": "I am an empathic person, dedicated, responsible, I know how to work in a team, patient, fast learner; I love technology, I like challenges and learn every day.",
+        "school": [
+            {
+                "name": "Instituto Tecnológico de Tepic",
+                "career": "Computer System Engineer"
+            },
+            {
+                "name": "Conalep 169",
+                "career": "IT technician"
+            }
+        ]
+    }
+}

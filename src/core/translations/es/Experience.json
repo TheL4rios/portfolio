@@ -9,20 +9,13 @@
                 "endDate": "Actualidad",
                 "urlLogo": "https://images.builderservices.io/s/cdn/v1.0/i/m?url=https%3A%2F%2Fstorage.googleapis.com%2Fproduction-hostgator-mexico-v1-0-7%2F777%2F215777%2FngIGd7rH%2Fc7cc4679ed9c4cf4af08a3ca8cd298bc&methods=resize%2C500%2C5000",
                 "experience": [
-                    "Desarrollé e hice mantenimiento a distintas aplicaciones web y móviles mediante la",
-                    "metodología agile, utilizando el stack MEAN. Una de las que más destaca es un e-commerce en el",
-                    "cual implementé un sistema de publicaciones y seguidores para tiendas.",
+                    "Desarrollé e hice mantenimiento a distintas aplicaciones web y móviles mediante la metodología agile, utilizando el stack MEAN. Una de las que más destaca es un e-commerce en el cual implementé un sistema de publicaciones y seguidores para tiendas.",
                     "",
-                    "Otra de las aplicaciones más grandes en la que trabajé es un ERP para una papelería que cuenta",
-                    "con 3 sucursales en el cual desarrollé distintos módulos para la gestión de clientes, pagos,",
-                    "reportes, comisiones, entre otras funcionalidades.",
+                    "Otra de las aplicaciones más grandes en la que trabajé es un ERP para una papelería que cuenta con 3 sucursales en el cual desarrollé distintos módulos para la gestión de clientes, pagos, reportes, comisiones, entre otras funcionalidades.",
                     "",
-                    "Trabajé con mongoose y typeorm para crear querys personalizadas y optimizar las existentes.",
-                    "A su vez di mantenimiento a base de datos y servidores.",
+                    "Trabajé con mongoose y typeorm para crear querys personalizadas y optimizar las existentes. A su vez di mantenimiento a base de datos y servidores.",
                     "",
-                    "Como backend trabajé en la optimización de procesos para mejorar el performance de",
-                    "aplicaciones utilizando NestJS y NodeJS, dando así una mejor experiencia de usuario. A su vez",
-                    "desarrollando APIREST para ser consumidas por el cliente web."
+                    "Como backend trabajé en la optimización de procesos para mejorar el performance de aplicaciones utilizando NestJS y NodeJS, dando así una mejor experiencia de usuario. A su vez desarrollando APIREST para ser consumidas por el cliente web."
                 ]
             }
         ]

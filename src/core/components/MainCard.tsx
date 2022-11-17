@@ -6,8 +6,8 @@ export const MainCard = () => {
 	const [t] = useTranslation('mainCard');
 
 	return (
-		<div className="h-full w-full bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 absolute left-0 h-[40%] top-[calc((100vh/2)-20%)] w-[52%] z-10 mx-auto right-0">
-			<div className="px-6 py-4 flex flex-col items-center justify-center h-full text-6xl select-none">
+		<div className="bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 absolute left-0 h-auto py-[50px] md:py-[100px] top-[calc((100vh/2)-20%)] w-[90%] lg:w-[70%] xl:w-[52%] z-10 mx-auto right-0">
+			<div className="px-6 py-4 flex flex-col items-center justify-center h-full text-2xl sm:text-5xl md:text-6xl">
 				<div className="mb-2">
 					<span className='text-white font-semibold'>Arturo Larios Quiroz</span>
 				</div>

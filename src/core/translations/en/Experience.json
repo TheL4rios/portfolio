@@ -1,0 +1,23 @@
+{
+    "experience": {
+        "title": "Work Experience",
+        "experiences": [
+            {
+                "name": "Alveussoft",
+                "description": "Company that offers custom technological solutions for every business.",
+                "initDate": "Feb. 2021",
+                "endDate": "Present",
+                "urlLogo": "https://images.builderservices.io/s/cdn/v1.0/i/m?url=https%3A%2F%2Fstorage.googleapis.com%2Fproduction-hostgator-mexico-v1-0-7%2F777%2F215777%2FngIGd7rH%2Fc7cc4679ed9c4cf4af08a3ca8cd298bc&methods=resize%2C500%2C5000",
+                "experience": [
+                    "I developed and maintened different web and mobile apps using agile methodologies and stack MEAN. One of the most important developments is an e-commerce in which I developed a system to post and add followers for stores.",
+                    "",
+                    "Another app that I worked on, was an ERP for stationery that has 3 branch offices in which I developed different modules to manage customers, payments, reports, commissions, and others features",
+                    "",
+                    "I worked with mongoose and TypeORM creating custom querys and optimizing pre-existing querys. I also did maintanance to databases and servers.",
+                    "",
+                    "As backend developer, I worked in the optimization of process to improve the performance of apps using NestJS and NodeJS, to improve user experience. At the same time developing APIREST to be used by the web client."
+                ]
+            }
+        ]
+    }
+}

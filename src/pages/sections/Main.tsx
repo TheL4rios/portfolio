@@ -19,7 +19,7 @@ export const Main = () => {
 		<>
 			<Particles width='100%' height='100vh' init={particlesInit} options={configParticle} />
 			<MainCard/>
-			<AiOutlineArrowDown className='text-white text-4xl animate-bounce absolute left-1/2 top-[calc((100vh/2)+25%)] z-10'/>
+			<AiOutlineArrowDown className='text-white text-4xl animate-bounce absolute left-[0px] right-[0px] mx-auto top-[calc((100vh/2)+25%)] z-10'/>
 		</>
 	)
 }

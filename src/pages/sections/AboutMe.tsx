@@ -11,12 +11,12 @@ export const AboutMe = () => {
   const schools: AboutMeSchool[] = t('aboutMe.school', { returnObjects: true });
 
   return (
-    <div className='container mx-auto'>
+    <div className='container px-5 sm:mx-auto'>
       <h1 className='text-center mt-[70px] text-4xl font-semibold'>{ `${ t('aboutMe.title') } ` }</h1>
-      <div className='flex items-center justify-center'>
-        <img src={ AvatarImg } alt='avatar' className='w-[400px]'/>
-        <div className='w-[50%] text-[#141C3A] ml-[100px]'>
-          <span className='text-2xl'>{ `${ t('aboutMe.about') } ` }</span>
+      <div className='flex items-center justify-center flex-col xl:flex-row'>
+        <img src={ AvatarImg } alt='avatar' className='w-[350px]'/>
+        <div className='w-full xl:w-[50%] text-[#141C3A] xl:ml-[100px] mt-[30px] xl:mt-[0px]'>
+          <span className='text-xl'>{ `${ t('aboutMe.about') } ` }</span>
           {
             schools.map((school: AboutMeSchool, index: number) => (
               <div className='flex items-center mt-[25px]' key={ index }>
