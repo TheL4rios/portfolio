@@ -11,7 +11,7 @@ export const Experience = () => {
     return (
         <div className='relative mt-[80px] xl:mt-[0px]'>
             <img src={Wave} alt='wave' />
-            <div className='bg-[#141C3A] w-full h-auto pb-[150px]'>
+            <div className='bg-[#141C3A] w-full h-auto pb-[200px]'>
                 <h1 className='text-center text-4xl text-white font-semibold xl:absolute top-[200px] left-0 right-0 mx-auto'>{`${t('experience.title')}`}</h1>
                 <div className='container mx-auto pt-[40px] xl:mt-[-50px]'>
                     {

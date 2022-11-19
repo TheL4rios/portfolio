@@ -1,11 +1,12 @@
 {
     "main": {
         "title": "Proyectos",
+        "btn": "Ir al sitio",
         "projects": [
             {
-                "img": "xd",
-                "description": "xd",
-                "url": "xd"
+                "imgId": "portfolio",
+                "description": "Mi portafolio personal",
+                "url": "http://localhost:3000/"
             }
         ]
     }

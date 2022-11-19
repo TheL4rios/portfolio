@@ -1,5 +1,5 @@
 export interface Project {
-    img: string;
+    imgId: string;
     description: string;
     url: string;
 }
