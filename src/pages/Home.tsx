@@ -1,3 +1,4 @@
+import { Footer } from 'src/core/components/Footer';
 import { AboutMe } from './sections/AboutMe';
 import { Experience } from './sections/Experience';
 import { Main } from './sections/Main';
@@ -11,6 +12,7 @@ export const Home = () => {
         <AboutMe/>
         <Experience/>
         <MyProjects/>
+        <Footer/>
     </>
   )
 }

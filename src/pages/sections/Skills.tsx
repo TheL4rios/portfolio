@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { SkillItem } from 'src/core/components/SkillItem';
 
 import { skills } from 'src/core/constants/skills';
 
@@ -14,10 +15,7 @@ export const Skills = () => {
                     <div className='flex flex-wrap justify-center'>
                         {
                             skills.map(skill => (
-                                <div key={skill.name} className='p-3 flex flex-col justify-end items-center m-3 w-[120px] sm:w-[128px] bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10'>
-                                    <img className='w-[64px]' src={ skill.img } alt={ skill.name }/>
-                                    <span>{ skill.name }</span>
-                                </div>
+                                <SkillItem skill={skill} key={skill.name}/>
                             ))
                         }
                     </div>

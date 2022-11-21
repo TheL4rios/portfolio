@@ -2,8 +2,8 @@ import { useTranslation } from 'react-i18next';
 
 import AvatarImg from 'src/assets/profile/avatar.svg';
 
-import { IoSchool } from 'react-icons/io5';
 import { AboutMeSchool } from 'src/core/interfaces/translations/about-me.interface';
+import { Education } from 'src/core/components/Education';
 
 export const AboutMe = () => {
 
@@ -19,14 +19,7 @@ export const AboutMe = () => {
           <span className='text-xl'>{ `${ t('aboutMe.about') } ` }</span>
           {
             schools.map((school: AboutMeSchool, index: number) => (
-              <div className='flex items-center mt-[25px]' key={ index }>
-                <IoSchool className='text-4xl'/>
-                <div className='ml-4'>
-                  <span className='font-semibold text-xl'>{ school.name }</span>
-                  <br/>
-                  <span className='text-xl'>{ school.career }</span>
-                </div>
-              </div>
+              <Education school={school} key={ index }/>
             ))
           }
         </div>
