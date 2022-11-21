@@ -6,7 +6,7 @@
             {
                 "imgId": "portfolio",
                 "description": "Mi portafolio personal",
-                "url": "http://localhost:3000/"
+                "url": "https://arturolarios.vercel.app/"
             }
         ]
     }
