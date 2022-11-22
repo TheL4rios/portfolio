@@ -31,11 +31,11 @@ export const skills: Skill[] = [
         img: ReactJs
     },
     {
-        name: 'Next.js',
+        name: 'Nextjs',
         img: NextJs
     },
     {
-        name: 'Node.js',
+        name: 'Nodejs',
         img: NodeJs
     },
     {

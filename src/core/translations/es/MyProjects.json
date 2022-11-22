@@ -10,7 +10,7 @@
             },
             {
                 "imgId": "cutApp",
-                "description": "Web app para acortar urls",
+                "description": "Web app para acortar links",
                 "url": "https://linkcutter.vercel.app/"
             }
         ]

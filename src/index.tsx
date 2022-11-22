@@ -44,11 +44,9 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
-    <I18nextProvider i18n={ i18next }>
-      <main className='select-none'>
-        <App />
-      </main>
-    </I18nextProvider>
-  </React.StrictMode>
+  <I18nextProvider i18n={i18next}>
+    <main className='select-none'>
+      <App />
+    </main>
+  </I18nextProvider>
 );
