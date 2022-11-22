@@ -7,6 +7,11 @@
                 "imgId": "portfolio",
                 "description": "My personal portfolio",
                 "url": "https://arturolarios.vercel.app/"
+            },
+            {
+                "imgId": "cutApp",
+                "description": "Web app to short urls",
+                "url": "https://linkcutter.vercel.app/"
             }
         ]
     }

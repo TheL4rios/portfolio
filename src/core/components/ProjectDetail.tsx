@@ -8,7 +8,7 @@ export const ProjectDetail = ({ project }: { project: Project }) => {
     const [t] = useTranslation('myProjects');
 
     return (
-        <div className="p-12">
+        <div className="p-6">
             <div className="group">
                 <div className="relative overflow-hidden">
                     <img className="h-auto sm:h-96 w-full object-cover" src={projectImages[project.imgId]} alt={project.description} />

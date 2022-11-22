@@ -11,7 +11,7 @@ export const MyProjects = () => {
     return (
         <div className='container mx-auto'>
             <h1 className='text-center mt-[70px] text-4xl font-semibold'>{`${t('main.title')} `}</h1>
-            <div className='flex justify-center'>
+            <div className='flex flex-col sm:flex-row justify-center'>
                 {
                     projects.map((project: Project, i: number) => (
                       <ProjectDetail project={project} key={i}/>  
