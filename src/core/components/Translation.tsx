@@ -5,36 +5,35 @@ import { MdOutlineLanguage } from "react-icons/md";
 
 import EUA from 'src/assets/flagEua.png';
 import MEX from 'src/assets/flagMexico.png';
+import { getLocalLanguage } from '../helpers/getLocalLanguage';
 import { Spinner } from './ui/Spinner';
+
+export type Languages = 'es' | 'en';
 
 export const Translation = () => {
 
   const [isLoading, setIsLoading] = useState(true);
-  const [lang, setLang] = useState<'es' | 'en'>('es');
+  const [lang, setLang] = useState<Languages>('es');
   const { i18n, ready } = useTranslation();
+
+  const setLanguage = async (lang: Languages) => {
+    setLang(lang);
+    await i18n.changeLanguage(lang);
+  }
 
   const onChangeLanguage = () => {
     setIsLoading(true);
     if (lang === 'en') {
-      setLang('es');
-      i18n.changeLanguage('es');
+      setLanguage('es');
     } else {
-      setLang('en');
-      i18n.changeLanguage('en');
+      setLanguage('en');
     }
     setIsLoading(false);
   }
 
   useEffect(() => {
-    if (ready) {
-      const localLang = window.navigator.language;
-  
-      if (localLang !== 'es-ES') {
-        setLang('en');
-        i18n.changeLanguage('en');
-      }
-      setIsLoading(false);
-    }
+    setLang(getLocalLanguage());
+    setIsLoading(false);
   }, [ready]);
 
   return (

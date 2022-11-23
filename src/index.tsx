@@ -16,12 +16,13 @@ import aboutMe_en from 'src/core/translations/en/AboutMe.json';
 import experience_en from 'src/core/translations/en/Experience.json';
 import skill_en from 'src/core/translations/en/Skill.json';
 import myProjects_en from 'src/core/translations/en/MyProjects.json';
+import { getLocalLanguage } from './core/helpers/getLocalLanguage';
 
 i18next.init({
   interpolation: {
     escapeValue: false
   },
-  lng: 'es',
+  lng: getLocalLanguage(),
   resources: {
     es: {
       mainCard: mainCard_es,
