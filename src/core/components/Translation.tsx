@@ -11,7 +11,7 @@ export const Translation = () => {
 
   const [isLoading, setIsLoading] = useState(true);
   const [lang, setLang] = useState<'es' | 'en'>('es');
-  const { i18n } = useTranslation();
+  const { i18n, ready } = useTranslation();
 
   const onChangeLanguage = () => {
     setIsLoading(true);
@@ -26,14 +26,16 @@ export const Translation = () => {
   }
 
   useEffect(() => {
-    const localLang = window.navigator.language;
-
-    if (localLang !== 'es-ES') {
-      setLang('en');
-      i18n.changeLanguage('en');
+    if (ready) {
+      const localLang = window.navigator.language;
+  
+      if (localLang !== 'es-ES') {
+        setLang('en');
+        i18n.changeLanguage('en');
+      }
+      setIsLoading(false);
     }
-    setIsLoading(false);
-  }, [i18n]);
+  }, [ready]);
 
   return (
     <div className='absolute top-[0px] right-[0px] z-20 text-white'>
