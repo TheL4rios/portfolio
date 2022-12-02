@@ -11,7 +11,7 @@ export const ProjectDetail = ({ project }: { project: Project }) => {
         <div className="p-6">
             <div className="group">
                 <div className="relative overflow-hidden">
-                    <img className="h-auto sm:h-96 w-full object-cover" src={projectImages[project.imgId]} alt={project.description} />
+                    <img className="h-auto w-full object-cover" src={projectImages[project.imgId]} alt={project.description} />
                     <div className="absolute h-full w-full flex flex-col items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300 bg-clip-padding backdrop-filter backdrop-blur-sm">
                         <span className='text-white mb-4'>{project.description}</span>
                         <a href={project.url} rel='noopenner noreferrer' target='_blank'>

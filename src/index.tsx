@@ -46,7 +46,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <I18nextProvider i18n={i18next}>
-    <main className='select-none'>
+    <main>
       <App />
     </main>
   </I18nextProvider>

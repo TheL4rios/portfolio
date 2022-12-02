@@ -12,6 +12,11 @@
                 "imgId": "cutApp",
                 "description": "Web app para acortar links",
                 "url": "https://linkcutter.vercel.app/"
+            },
+            {
+                "imgId": "dataFaker",
+                "description": "Genera información falsa de una interface de TS",
+                "url": "https://data-faker.vercel.app/"
             }
         ]
     }
