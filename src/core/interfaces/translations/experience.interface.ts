@@ -1,8 +1,9 @@
 export interface WorkExperience {
     name: string;
-    description: string;
+    position: string;
     initDate: string;
     endDate: string;
     urlLogo: string;
     experience: string[];
+    isCurrent: boolean;
 }

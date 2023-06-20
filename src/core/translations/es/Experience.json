@@ -4,19 +4,26 @@
         "experiences": [
             {
                 "name": "Alveussoft",
-                "description": "Empresa que ofrece soluciones tecnológicas personalizadas para cada negocio.",
+                "position": "Full Stack Developer",
                 "initDate": "Feb. 2021",
                 "endDate": "Actualidad",
                 "urlLogo": "https://images.builderservices.io/s/cdn/v1.0/i/m?url=https%3A%2F%2Fstorage.googleapis.com%2Fproduction-hostgator-mexico-v1-0-7%2F777%2F215777%2FngIGd7rH%2Fc7cc4679ed9c4cf4af08a3ca8cd298bc&methods=resize%2C500%2C5000",
                 "experience": [
-                    "Desarrollé e hice mantenimiento a distintas aplicaciones web y móviles mediante la metodología agile, utilizando el stack MEAN. Una de las que más destaca es un e-commerce en el cual implementé un sistema de publicaciones y seguidores para tiendas.",
+                    "Desarrollo y mantenimiento de aplicaciones web y móviles, utilizando el stack MEAN.",
                     "",
-                    "Otra de las aplicaciones más grandes en la que trabajé es un ERP para una papelería que cuenta con 3 sucursales en el cual desarrollé distintos módulos para la gestión de clientes, pagos, reportes, comisiones, entre otras funcionalidades.",
+                    "Colaborar con equipos multifuncionales que incluyen gerentes de productos y otros desarrolladores para crear productos de alta calidad.",
                     "",
-                    "Trabajé con mongoose y typeorm para crear querys personalizadas y optimizar las existentes. A su vez di mantenimiento a base de datos y servidores.",
+                    "Implementar diseños adaptables y garantizar la compatibilidad entre navegadores.",
                     "",
-                    "Como backend trabajé en la optimización de procesos para mejorar el performance de aplicaciones utilizando NestJS y NodeJS, dando así una mejor experiencia de usuario, a su vez desarrollando APIREST para ser consumidas por el cliente web."
-                ]
+                    "Participar en revisiones de código y proporcionar comentarios constructivos a otros desarrolladores.",
+                    "",
+                    "Proporcionar soporte técnico y solucionar problemas en producción.",
+                    "",
+                    "Crear y mantener bases de datos para aplicaciones web y móviles.",
+                    "",
+                    "Realizar configuración de servidores para el despliegue de aplicaciones."
+                ],
+                "isCurrent": true
             }
         ]
     }

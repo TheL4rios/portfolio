@@ -15,13 +15,13 @@ export const MainCard = () => {
 					{ `${ t('card.role') } ` }
 				</p>
 				<div className='absolute right-[10px] bottom-[10px] text-3xl flex'>
-					<a rel='noopenner noreferrer' href='https://github.com/TheL4rios' target='_blank'>
+					<a rel='noopenner noreferrer' href='https://github.com/TheL4rios' target='_blank' className='transition-all hover:scale-125'>
 						<AiFillGithub className='text-white'/>
 					</a>
-					<a rel='noopenner noreferrer' href='https://www.linkedin.com/in/lariosquiroz/' target='_blank' className='ml-2'>
+					<a rel='noopenner noreferrer' href='https://www.linkedin.com/in/lariosquiroz/' target='_blank' className='ml-2 transition-all hover:scale-125'>
 						<AiFillLinkedin className='text-white'/>
 					</a>
-					<a rel='noopenner noreferrer' href='mailto:arallariosqu@gmail.com' target='_blank' className='ml-2'>
+					<a rel='noopenner noreferrer' href='mailto:arallariosqu@gmail.com' target='_blank' className='ml-2 transition-all hover:scale-125'>
 						<AiOutlineMail className='text-white'/>
 					</a>
 				</div>
