@@ -14,7 +14,7 @@ export const Experience = () => {
             <img src={Wave} alt='wave' />
             <div className='bg-[#141C3A] w-full h-auto pb-[200px]'>
                 <h1 className='text-center text-4xl text-white font-semibold mb-[100px] md:mt-[-100px] xl:mt-[-150px]'>{`${t('experience.title')}`}</h1>
-                <div className="container mx-8 md:mx-16 xl:mt-[-50px] before:content-[''] before:h-full before:absolute md:before:left-1/2 before:w-1 before:bg-white pt-10 relative">
+                <div className="mx-10 md:mx-0 xl:mt-[-50px] before:content-[''] before:h-full before:absolute md:before:left-1/2 before:w-1 before:bg-white pt-10 relative">
                     {
                         experiences.map((experience: WorkExperience, index: number) => (
                             <ExperienceJob experience={experience} index={index} key={experience.name} />

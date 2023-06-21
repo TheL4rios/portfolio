@@ -1,22 +1,27 @@
 {
     "main": {
         "title": "Proyectos",
-        "btn": "Ir al sitio",
         "projects": [
             {
                 "imgId": "portfolio",
-                "description": "Mi portafolio personal",
-                "url": "https://arturolarios.vercel.app/"
+                "name": "Portafolio",
+                "description": "Mi portafolio personal.",
+                "url": "https://arturolarios.vercel.app/",
+                "technologies": ["React", "TypeScript", "Tailwind"]
             },
             {
                 "imgId": "cutApp",
-                "description": "Web app para acortar links",
-                "url": "https://linkcutter.vercel.app/"
+                "name": "CutApp",
+                "description": "Aplicación WEB que permite a los usuarios acortar enlaces.",
+                "url": "https://linkcutter.vercel.app/",
+                "technologies": ["React", "Chakra UI", "NestJS", "TypeScript", "Mongo DB"]
             },
             {
                 "imgId": "dataFaker",
-                "description": "Genera información falsa de una interface de TS",
-                "url": "https://data-faker.vercel.app/"
+                "name": "DataFaker",
+                "description": "Aplicación web para generar información de pruebas tomando como base una interface de TS.",
+                "url": "https://data-faker.vercel.app/",
+                "technologies": ["Angular", "Tailwind", "TypeScript"]
             }
         ]
     }

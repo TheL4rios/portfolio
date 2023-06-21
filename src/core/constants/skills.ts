@@ -8,9 +8,7 @@ import NodeJs from 'src/assets/skills/nodejs.png';
 import NestJs from 'src/assets/skills/nestjs.png';
 import Ts from 'src/assets/skills/ts.png';
 import MySql from 'src/assets/skills/mysql.png';
-import SqlServer from 'src/assets/skills/sql-server.png';
 import MongoDb from 'src/assets/skills/mongodb.png';
-import PostgreSQL from 'src/assets/skills/postgresql.png';
 import Python from 'src/assets/skills/python.png';
 import Docker from 'src/assets/skills/docker.png';
 import GitHub from 'src/assets/skills/github.png';
@@ -51,16 +49,8 @@ export const skills: Skill[] = [
         img: MySql
     },
     {
-        name: 'SQL Server',
-        img: SqlServer
-    },
-    {
         name: 'MongoDB',
         img: MongoDb
-    },
-    {
-        name: 'PostgreSQL',
-        img: PostgreSQL
     },
     {
         name: 'Python',

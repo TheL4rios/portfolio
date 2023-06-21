@@ -7,7 +7,7 @@ export const ExperienceJob = ({ experience, index }: { experience: WorkExperienc
                 <img src={experience.urlLogo} alt={experience.name} className='w-[28px] h-[28px] md:w-[60px] md:h-[60px] -mt-1'/>
             </div>
             <div className='text-white text-lg relative pl-14 md:pl-0'>
-                <div className='max-w-[80%] md:max-w-[44%] rounded-3xl pb-5 px-3 border-b-2'>
+                <div className='max-w-full md:max-w-[44%] rounded-3xl pb-5 px-3 border-b-2'>
                     <span className='font-bold text-2xl'>{experience.name}</span>
                     <br/>
                     <span className='text-gray-400'>{ experience.position }</span>

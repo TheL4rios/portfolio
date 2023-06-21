@@ -46,7 +46,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <I18nextProvider i18n={i18next}>
-    <main className='overflow-hidden'>
+    <main className='overflow-hidden select-none'>
       <App />
     </main>
   </I18nextProvider>

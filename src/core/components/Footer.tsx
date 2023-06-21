@@ -17,7 +17,7 @@ export const Footer = () => {
       <div className='container mx-auto sm:px-6 lg:px-28 space-y-8 p-1 text-center'>
         <div className='my-5'>
           <div className='flex align-center justify-center mb-[50px]'>
-            <img src={Logo} alt='logo' className='w-[50px] cursor-pointer transition-all hover:scale-125' onClick={ goToTop }/>
+            <img draggable={ false } src={Logo} alt='logo' className='w-[50px] cursor-pointer transition-all hover:scale-125' onClick={ goToTop }/>
           </div>
           <div className='flex justify-center text-3xl'>
             <a rel='noopenner noreferrer' href='https://github.com/TheL4rios' target='_blank' className='transition-all hover:scale-125'>

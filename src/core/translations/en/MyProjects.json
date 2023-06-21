@@ -1,22 +1,27 @@
 {
     "main": {
         "title": "Projects",
-        "btn": "Visit website",
         "projects": [
             {
                 "imgId": "portfolio",
+                "name": "Portfolio",
                 "description": "My personal portfolio",
-                "url": "https://arturolarios.vercel.app/"
+                "url": "https://arturolarios.vercel.app/",
+                "technologies": ["React", "TypeScript", "Tailwind"]
             },
             {
                 "imgId": "cutApp",
+                "name": "CutApp",
                 "description": "Web app to short urls",
-                "url": "https://linkcutter.vercel.app/"
+                "url": "https://linkcutter.vercel.app/",
+                "technologies": ["React", "Chakra UI", "NestJS", "TypeScript", "Mongo DB"]
             },
             {
                 "imgId": "dataFaker",
+                "name": "DataFaker",
                 "description": "Generate fake data from interface of TS",
-                "url": "https://data-faker.vercel.app/"
+                "url": "https://data-faker.vercel.app/",
+                "technologies": ["Angular", "Tailwind", "TypeScript"]
             }
         ]
     }

@@ -41,7 +41,7 @@ export const Translation = () => {
       <button onClick={onChangeLanguage} className='flex items-center m-3'>
         <Spinner isLoading={isLoading}/>
         <MdOutlineLanguage className='text-2xl'/>
-        <img alt='Language' src={ lang === 'en' ? EUA : MEX } className='w-[32px] ml-3'/>
+        <img draggable={ false } alt='Language' src={ lang === 'en' ? EUA : MEX } className='w-[32px] ml-3'/>
       </button>
     </div>
   )

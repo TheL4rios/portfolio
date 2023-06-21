@@ -14,7 +14,7 @@ export const AboutMe = () => {
     <div className='container px-5 sm:mx-auto'>
       <h1 className='text-center mt-[70px] text-4xl font-semibold'>{ `${ t('aboutMe.title') } ` }</h1>
       <div className='flex items-center justify-center flex-col xl:flex-row'>
-        <img src={ AvatarImg } alt='avatar' className='w-[350px]'/>
+        <img draggable={ false } src={ AvatarImg } alt='avatar' className='w-[350px]'/>
         <div className='w-full xl:w-[50%] text-[#141C3A] xl:ml-[100px] mt-[30px] xl:mt-[50px]'>
           <span className='text-xl'>{ `${ t('aboutMe.about') } ` }</span>
           {
