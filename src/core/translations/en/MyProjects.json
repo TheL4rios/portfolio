@@ -12,14 +12,14 @@
             {
                 "imgId": "cutApp",
                 "name": "CutApp",
-                "description": "Web app to short urls",
+                "description": "WEB App that allows users to shorten links.",
                 "url": "https://linkcutter.vercel.app/",
                 "technologies": ["React", "Chakra UI", "NestJS", "TypeScript", "Mongo DB"]
             },
             {
                 "imgId": "dataFaker",
                 "name": "DataFaker",
-                "description": "Generate fake data from interface of TS",
+                "description": "WEB App for generation test data based on a TypeScript interface.",
                 "url": "https://data-faker.vercel.app/",
                 "technologies": ["Angular", "Tailwind", "TypeScript"]
             }
