@@ -1,19 +1,19 @@
 import { Skill } from 'src/core/interfaces/skill.interface';
 
-import Ionic from 'src/assets/skills/ionic.svg';
-import Angular from 'src/assets/skills/angular.png';
-import ReactJs from 'src/assets/skills/react-icon.png';
-import NextJs from 'src/assets/skills/next-js.png';
-import NodeJs from 'src/assets/skills/nodejs.png';
-import NestJs from 'src/assets/skills/nestjs.png';
-import Ts from 'src/assets/skills/ts.png';
-import MySql from 'src/assets/skills/mysql.png';
-import MongoDb from 'src/assets/skills/mongodb.png';
-import Python from 'src/assets/skills/python.png';
-import Docker from 'src/assets/skills/docker.png';
-import GitHub from 'src/assets/skills/github.png';
-import Git from 'src/assets/skills/git.png';
-import Java from 'src/assets/skills/java.png';
+import Ionic from 'src/assets/skills/ionic.webp';
+import Angular from 'src/assets/skills/angular.webp';
+import ReactJs from 'src/assets/skills/react-icon.webp';
+import NextJs from 'src/assets/skills/next-js.webp';
+import NodeJs from 'src/assets/skills/nodejs.webp';
+import NestJs from 'src/assets/skills/nestjs.webp';
+import Ts from 'src/assets/skills/ts.webp';
+import MySql from 'src/assets/skills/mysql.webp';
+import MongoDb from 'src/assets/skills/mongodb.webp';
+import Python from 'src/assets/skills/python.webp';
+import Docker from 'src/assets/skills/docker.webp';
+import GitHub from 'src/assets/skills/github.webp';
+import Git from 'src/assets/skills/git.webp';
+import Java from 'src/assets/skills/java.webp';
 
 export const skills: Skill[] = [
     {
