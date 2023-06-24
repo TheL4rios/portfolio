@@ -11,7 +11,15 @@
 }
 
 .btn-link:hover {
-    box-shadow: #fff 0 0 0 1px,rgb(255 255 255/.5)0 0 0 6px;
+    box-shadow: #fff 0 0 0 1px, rgb(255 255 255/.5)0 0 0 6px;
+}
+
+.animate__bounceIn {
+    opacity: 0;
+    animation-name: bounceIn;
+    animation-duration: 450ms;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
 }
 
 @keyframes pulse-animation {
@@ -21,5 +29,27 @@
 
     100% {
         box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+    }
+}
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.3) translate3d(0, 0, 0);
+    }
+
+    50% {
+        opacity: 0.9;
+        transform: scale(1.1);
+    }
+
+    80% {
+        opacity: 1;
+        transform: scale(0.89);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1) translate3d(0, 0, 0);
     }
 }
