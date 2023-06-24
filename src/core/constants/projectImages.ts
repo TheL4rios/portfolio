@@ -1,6 +1,6 @@
-import Portfolio from 'src/assets/projects/portfolio.png';
-import CutApp from 'src/assets/projects/cut-app.png';
-import DataFaker from 'src/assets/projects/data-faker.png';
+import Portfolio from 'src/assets/projects/portfolio.webp';
+import CutApp from 'src/assets/projects/cut-app.webp';
+import DataFaker from 'src/assets/projects/data-faker.webp';
 
 export const projectImages: { [key: string]: string } = {
     portfolio: Portfolio,

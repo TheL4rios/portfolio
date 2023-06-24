@@ -3,8 +3,8 @@ import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { MdOutlineLanguage } from "react-icons/md";
 
-import EUA from 'src/assets/flagEua.png';
-import MEX from 'src/assets/flagMexico.png';
+import EUA from 'src/assets/flagEua.webp';
+import MEX from 'src/assets/flagMexico.webp';
 import { getLocalLanguage } from '../helpers/getLocalLanguage';
 import { Spinner } from './ui/Spinner';
 
@@ -41,7 +41,7 @@ export const Translation = () => {
       <button onClick={onChangeLanguage} className='flex items-center m-3'>
         <Spinner isLoading={isLoading}/>
         <MdOutlineLanguage className='text-2xl'/>
-        <img draggable={ false } alt='Language' src={ lang === 'en' ? EUA : MEX } className='w-[32px] ml-3'/>
+        <img draggable={ false } key={lang} alt='Language' src={ lang === 'en' ? EUA : MEX } className='w-[32px] ml-3 animate__animated animate__bounceIn'/>
       </button>
     </div>
   )

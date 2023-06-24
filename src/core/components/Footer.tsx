@@ -1,4 +1,4 @@
-import Logo from 'src/assets/logo-cropped.png';
+import Logo from 'src/assets/logo-cropped.webp';
 
 import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from 'react-icons/ai';
 

@@ -1,7 +1,7 @@
 import { Project } from 'src/core/interfaces/translations/project.interface';
 import { projectImages } from 'src/core/constants/projectImages';
 
-import arrowImage from 'src/assets/arrow.svg' ;
+import arrowImage from 'src/assets/arrow.webp' ;
 
 export const ProjectDetail = ({ project }: { project: Project; }) => {
     return (

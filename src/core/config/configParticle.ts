@@ -6,7 +6,7 @@ export const configParticle: ISourceOptions = {
             value: "#141c3a",
         },
     },
-    fpsLimit: 120,
+    fpsLimit: 60,
     fullScreen: false,
     particles: {
         color: {
