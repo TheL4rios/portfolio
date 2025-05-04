@@ -1,7 +1,6 @@
 import { StaticImageData } from "next/image";
 
 export interface IProject {
-    id: number;
     name: string;
     image: StaticImageData;
     description: string;

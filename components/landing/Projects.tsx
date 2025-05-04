@@ -1,115 +1,19 @@
-import { IProject } from "@/types/project";
-import CutApp from '@/assets/cut-app.webp';
-import DataFaker from '@/assets/data-faker.webp';
-import Homedy from '@/assets/homedy.webp';
-import { ProjectItem } from "@/components/landing/ProjectItem";
-import { Icons } from "@/components/icons";
-
-const projects: IProject[] = [
-    {
-        id: 1,
-        name: 'CutApp - Shorten your links easily',
-        image: CutApp,
-        description: `
-            CutApp is a simple and efficient application to
-            shorten links, making it easier to share URLs
-            in a more compact and user-friendly way.
-            Perfect for professionals and users who
-            need to manage long links.
-        `,
-        link: 'https://linkcutter.vercel.app/',
-        tags: [
-            {
-                link: 'https://react.dev/',
-                name: 'React',
-                icon: Icons.react,
-            },
-            {
-                link: 'https://nestjs.com/',
-                name: 'NestJS',
-                icon: Icons.nest,
-            },
-            {
-                link: 'https://www.typescriptlang.org/',
-                name: 'TypeScript',
-                icon: Icons.typescript,
-            },
-            {
-                link: 'https://www.mongodb.com/',
-                name: 'MongoDB',
-                icon: Icons.mongo,
-            }
-        ],
-    },
-    {
-        id: 2,
-        name: 'Data Faker - Fake data generator for testing',
-        image: DataFaker,
-        description: `
-            Data Faker is a tool that allows you to generate
-            fake data based on TypeScript interfaces, perfect
-            for testing, development, or demonstrations. You
-            can customize data structures and generate large
-            amounts of data quickly.
-        `,
-        link: 'https://data-faker.vercel.app/',
-        tags: [
-            {
-                link: 'https://angular.dev/',
-                name: 'Angular',
-                icon: Icons.angular,
-            }
-        ],
-    },
-    {
-        id: 3,
-        name: 'Homedy MX - Find qualified professionals near you',
-        image: Homedy,
-        description: `
-            Homedy is an app that connects you with experts in
-            repair and maintenance. From mechanics to masons,
-            find qualified and well-reviewed professionals in
-            your area for your home or business needs.
-        `,
-        link: 'https://www.homedy.mx/',
-        tags: [
-            {
-                link: 'https://ionicframework.com/',
-                name: 'Ionic',
-                icon: Icons.ionic,
-            },
-            {
-                link: 'https://angular.dev/',
-                name: 'Angular',
-                icon: Icons.angular,
-            },
-            {
-                link: 'https://supabase.com/',
-                name: 'Supabase',
-                icon: Icons.supabase,
-            },
-            {
-                link: 'https://www.postgresql.org/',
-                name: 'PostgreSQL',
-                icon: Icons.postgres,
-            },
-        ],
-    },
-];
-
+import { ProjectItem } from "@/components/ui/ProjectItem";
+import { Section } from "@/components/ui/Section";
+import { projects } from "@/lib/constants/projects";
 
 export const Projects = () => {
-    return (
-        <section id="projects" className="relative flex m-auto h-[100dvh] w-full max-w-[1000px] gap-20 flex-col items-center justify-content-center">
-            <h2 className="text-5xl">Projects</h2>
+    const lastProjectIndex = projects.length - 1;
 
+    return (
+        <Section id="projects" title="Projects">
             <div className="flex flex-col gap-5">
                 {
-                    projects.map(({id, ...props}) => (
-                        <ProjectItem key={id} {...props} />
+                    projects.map((props, index) => (
+                        <ProjectItem key={index} {...props} reverse={index % 2 !== 0} isLast={index === lastProjectIndex} />
                     ))
                 }
             </div>
-        </section>
+        </Section>
     );
 };

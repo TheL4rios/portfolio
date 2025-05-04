@@ -1,4 +1,4 @@
-export default () => {
+const Ionic = () => {
   return (
     <>
       <svg
@@ -19,3 +19,5 @@ export default () => {
     </>
   );
 };
+
+export default Ionic;
