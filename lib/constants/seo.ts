@@ -67,6 +67,7 @@ export const jsonLdPerson: WithContext<Person> = {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Arturo Alejandro Larios Quiroz",
+    "image": "https://www.arturolarios.com/assets/logo-cropped.png",
     "url": "https://www.arturolarios.com",
     "sameAs": [
         "https://www.linkedin.com/in/lariosquiroz/",
