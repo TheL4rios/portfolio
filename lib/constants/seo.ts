@@ -1,10 +1,10 @@
 import { Metadata } from "next";
-import { Person, WebSite, WithContext } from "schema-dts";
+import { Organization, Person, WebSite, WithContext } from "schema-dts";
 
 export const SeoData: Metadata = {
     title: "Arturo Alejandro Larios Quiroz - Full Stack Developer",
     description: `
-        Arturo Alejandro Larios Quiroz is a Full Stack Developer with 4+ years
+        Arturo Alejandro Larios Quiroz Full Stack Developer with 4+ years
         of experience in building scalable and accessible web applications.
         Focused on performance, user experience, and solving real-world problems.
     `,
@@ -74,7 +74,7 @@ export const jsonLdPerson: WithContext<Person> = {
         "https://github.com/TheL4rios"
     ],
     "jobTitle": "Full Stack Developer",
-    "description": "Full Stack Developer with 4+ years of experience in building scalable, accessible web applications.",
+    "description": "Full Stack Developer with +4 years of experience in building scalable, accessible web applications.",
     "skills": [
         "Next.js",
         "React",
@@ -95,3 +95,28 @@ export const jsonLdWebSite: WithContext<WebSite> = {
     "url": "https://www.arturolarios.com",
     "name": "Arturo Larios Portfolio"
 }
+
+export const jsonLdOrganization: WithContext<Organization> = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Arturo Larios",
+    "legalName": "Arturo Alejandro Larios Quiroz",
+    "url": "https://www.arturolarios.com",
+    "logo": "https://www.arturolarios.com/assets/logo-cropped.webp",
+    "description": "Arturo Larios, Full Stack Developer specialized in modern web technologies such as React, Angular, and Node.js.",
+    "founder": {
+        "@type": "Person",
+        "name": "Arturo Alejandro Larios Quiroz",
+        "url": "https://www.arturolarios.com"
+    },
+    "sameAs": [
+        "https://www.linkedin.com/in/lariosquiroz/",
+        "https://github.com/TheL4rios"
+    ],
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "arallariosqu@gmail.com",
+        "contactType": "customer support",
+        "availableLanguage": ["English", "Spanish"]
+    }
+};
