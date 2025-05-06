@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 
 import "@/styles/globals.css";
-import { jsonLdPerson, jsonLdWebSite, SeoData } from "@/lib/constants/seo";
+import { jsonLdOrganization, jsonLdPerson, jsonLdWebSite, SeoData } from "@/lib/constants/seo";
 
 const cascadiaCode = localFont({
   src: [
@@ -35,6 +35,12 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(jsonLdWebSite),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(jsonLdOrganization),
           }}
         />
         <link
