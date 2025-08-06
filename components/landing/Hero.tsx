@@ -4,7 +4,7 @@ import { InteractiveHoverButton } from "@/components/magicui/interactive-hover-b
 export const Hero = () => {
 	return (
 		<section id="home" className="relative flex min-h-[100dvh] w-full flex-col items-center justify-content-center overflow-hidden">
-			<Meteors number={30} />
+			<Meteors />
 			<div className="hero-bg m-auto max-w-[1000px] flex justify-content-start items-start gap-5 lg:gap-10 flex-col">
 				<div>
 					<h1 className="text-3xl lg:text-5xl">Arturo Alejandro Larios Quiroz</h1>

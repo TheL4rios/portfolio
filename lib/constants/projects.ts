@@ -2,9 +2,37 @@ import { IProject } from "@/types/project";
 import CutApp from '@/assets/cut-app.webp';
 import DataFaker from '@/assets/data-faker.webp';
 import Homedy from '@/assets/homedy.webp';
+import CodexTools from '@/assets/codex-tools.webp';
 import { Icons } from "@/components/icons";
 
 export const projects: IProject[] = [
+    {
+        name: 'Codex Tools - Developer Utilities Suite',
+        image: CodexTools,
+        description: `
+            Codex Tools is a fast, privacy-friendly suite of web-based tools for developers.
+            From encoding and formatting to debugging and generation, everything is available 
+            instantly without sign-up.
+        `,
+        link: 'https://www.codextools.dev/',
+        tags: [
+            {
+                link: 'https://nextjs.org/',
+                name: 'Next.js',
+                icon: Icons.next,
+            },
+            {
+                link: 'https://react.dev/',
+                name: 'React',
+                icon: Icons.react,
+            },
+            {
+                link: 'https://www.typescriptlang.org/',
+                name: 'TypeScript',
+                icon: Icons.typescript,
+            },
+        ],
+    },
     {
         name: 'Homedy MX - Find qualified professionals near you',
         image: Homedy,
